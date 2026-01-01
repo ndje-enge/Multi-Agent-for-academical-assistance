@@ -14,11 +14,11 @@ Multi-Agent School Assistant is an intelligent educational assistant designed fo
 
 | Agent | Role | Usage Examples |
 |-------|------|----------------|
-| 🔍 **Search** | Document retrieval (RAG) | "What is photosynthesis?" |
-| 👨‍🏫 **Pedagogical** | Level-adapted explanations | "Explain fractions to me" |
-| 📝 **Assessment** | Quiz and exercise creation | "Give me a history quiz" |
-| 📅 **Planning** | Organization and methodology | "Help me organize my revision" |
-| 🎯 **Orchestrator** | Intelligent coordination | Manages and delegates to other agents |
+| **Search** | Document retrieval (RAG) | "What is photosynthesis?" |
+| **Pedagogical** | Level-adapted explanations | "Explain fractions to me" |
+| **Assessment** | Quiz and exercise creation | "Give me a history quiz" |
+| **Planning** | Organization and methodology | "Help me organize my revision" |
+| **Orchestrator** | Intelligent coordination | Manages and delegates to other agents |
 
 ### Key Features
 
@@ -57,7 +57,7 @@ cd multi-agent-school-assistant
 make install && make playground
 ```
 
-## 💻 Usage
+## Usage
 
 ### Web Interface (Playground)
 
@@ -91,7 +91,7 @@ make test
 make lint
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 multi-agent-school-assistant/
@@ -106,7 +106,7 @@ multi-agent-school-assistant/
 └── test_multi_agent.py       # Architecture validation
 ```
 
-## 🛠️ Useful Commands
+## Useful Commands
 
 ```bash
 make install        # Install dependencies
@@ -118,7 +118,7 @@ make test           # Run tests
 make lint           # Check code quality
 ```
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Example 1: Simple Question
 ```
@@ -139,17 +139,13 @@ Agent: Search + Pedagogical + Assessment + Planning
        → Complete revision + Quiz + 7-day planning
 ```
 
-## 📄 License
-
-This project is licensed under Apache 2.0. See [LICENSE](LICENSE) for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Project based on [Google Cloud Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)
 - Uses [Google Vertex AI](https://cloud.google.com/vertex-ai) and [Gemini](https://deepmind.google/technologies/gemini/)
 
 ---
 
-**⭐ If this project helps you, don't hesitate to star it!**
+**If this project helps you, don't hesitate to star it!**
 
 Made with ❤️ for students
